@@ -1,0 +1,11 @@
+.searchBox {
+    display: flex;
+}
+
+.searchInput {
+    border-top: 1px solid var(--c-l-white);
+}
+
+.searchBox .searchBtn {
+    margin: 0 0 0 var(--spacing-s);
+}

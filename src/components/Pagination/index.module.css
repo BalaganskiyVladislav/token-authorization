@@ -1,0 +1,23 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    column-gap: var(--spacing-s);
+    margin-top: var(--spacing-l);
+}
+
+.paginationItem {
+    color: var(--c-l-white);
+}
+
+.paginationBtn {
+    color: var(--c-white);
+}
+
+.paginationBtn:disabled {
+    color: var(--c-l-white)
+}
+
+.paginationBtn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

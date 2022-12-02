@@ -1,0 +1,15 @@
+.card {
+    background: var(--c-transparent);
+    border-radius: 15px;
+    padding: var(--spacing-l);
+    min-width: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cardTitle {
+    font-size: 32px;
+    color: var(--c-white);
+    margin-bottom: var(--spacing-s);
+    font-weight: 600;
+}

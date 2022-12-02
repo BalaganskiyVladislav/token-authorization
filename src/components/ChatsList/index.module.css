@@ -1,0 +1,10 @@
+.chatsList {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--spacing-m);
+}
+
+.chatsListMessage {
+    text-align: center;
+    margin-top: var(--spacing-m);
+}

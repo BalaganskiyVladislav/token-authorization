@@ -1,0 +1,22 @@
+.chatsItem {
+    border-bottom: 1px solid var(--c-transparent);
+    padding: var(--spacing-s);
+    color: var(--c-white);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    column-gap: var(--spacing-s);
+}
+
+.chatsItem::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--c-l-white);
+}
+
+.chatsItem:first-child {
+    border-top: 1px solid var(--c-transparent);
+}

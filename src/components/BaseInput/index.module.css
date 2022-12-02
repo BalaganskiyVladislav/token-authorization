@@ -1,0 +1,17 @@
+.baseInput {
+    color: var(--c-white);
+    padding: var(--spacing-s) 0;
+    border-bottom: 1px solid var(--c-l-white);
+    background: transparent;
+    display: block;
+    width: 100%;
+}
+
+.baseInput:focus {
+    outline: none;
+    border-color: var(--c-white);
+}
+
+.baseInput::placeholder {
+    color: var(--c-l-white);
+}

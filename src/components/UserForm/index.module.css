@@ -1,0 +1,24 @@
+.formItem {
+    margin-bottom: var(--spacing-m);
+}
+
+.formErrorMessage {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 10px;
+    color: var(--c-white);
+}
+
+.formLink {
+    color: var(--c-l-white);
+    font-size: 12px;
+    display: block;
+    width: fit-content;
+    margin: var(--spacing-s) auto 0 auto;
+    transition: color .2s linear;
+}
+
+.formLink:hover {
+    color: var(--c-white);
+}

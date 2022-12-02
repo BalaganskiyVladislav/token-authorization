@@ -1,0 +1,17 @@
+.createChatBtn {
+    position: absolute;
+    top: var(--spacing-m);
+    right: var(--spacing-l);
+    font-size: 12px;
+    color: var(--c-l-white);
+    transition: color .2s linear;
+}
+
+.createChatBtn:hover {
+    color: var(--c-white);
+    text-decoration: underline;
+}
+
+.chatsSearch {
+    margin: var(--spacing-m) 0;
+}
